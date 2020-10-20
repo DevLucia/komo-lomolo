@@ -1,4 +1,5 @@
 import React from 'react';
+import { pics } from '../../utils/imgProvider';
 
 import './header.css';
 
@@ -13,6 +14,8 @@ export default function Header () {
     }
   }
   return (
-    <div id="header">Header</div>
+    <div id="header">
+      <img className="logo" alt="logo" src={pics.logo}></img>
+    </div>
   );
 }

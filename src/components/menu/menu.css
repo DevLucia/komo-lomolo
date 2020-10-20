@@ -1,0 +1,6 @@
+.menu {
+    position: fixed; /* Fixed position - sit on top of the page */
+    top: 200px;
+    width: 100%; /* Full width */
+    transition: 0.2s; 
+};
