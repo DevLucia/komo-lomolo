@@ -1,0 +1,7 @@
+.bloque {
+    position: fixed;
+    top:256px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }

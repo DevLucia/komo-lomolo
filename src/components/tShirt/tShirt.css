@@ -1,0 +1,31 @@
+.bloque {
+    position: fixed;
+    top:300px;
+    display: flex;
+    width: 100%;
+  }
+
+  .c {
+    position: absolute;
+    max-width: 200px;
+    max-height: 200px;
+    width: 50ch;
+    height: 50ch;
+    cursor: pointer;
+    will-change: transform, opacity;
+  }
+  
+  .front,
+  .back {
+    background-size: cover;
+  }
+ 
+  
+  .tshirt {
+    height: 300px;
+    border-radius: 5%;
+  }
+
+  .grid {
+    padding: 10px;
+  }

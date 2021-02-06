@@ -3,7 +3,12 @@ import './App.css';
 import Header from './components/header/header';
 import Menu from './components/menu/menu';
 import { Switch, Route } from 'react-router-dom';
-import PrivateRoute from './guards/PrivateRoute';
+
+import TShirt from './components/tShirt/tShirt';
+import SweatShirt from './sweatShirt/sweatShirt';
+import Home from './components/Home/home';
+import Art from './components/art/art';
+import Contact from './components/contact/contact';
 
 function App() {
   return (
@@ -12,11 +17,11 @@ function App() {
       <Menu></Menu>
       <div className="App">
          <Switch>
-              <Route exact path="/tshirts" component={TShirts} />
-              <PrivateRoute exact path="/sweatShirts" component={SwatShirts} />
-              <PrivateRoute exact path="/" component={Home} />
-              <PrivateRoute exact path="/art" component={Art} />
-              <PrivateRoute exact path="/contact" component={Contact} />
+              <Route exact path="/tshirts" component={TShirt} />
+              <Route exact path="/sweatShirts" component={SweatShirt} />
+              <Route exact path="/" component={Home} />
+              <Route exact path="/art" component={Art} />
+              <Route exact path="/contact" component={Contact} />
           </Switch>
       </div>
     </div>

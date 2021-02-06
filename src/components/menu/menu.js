@@ -8,15 +8,15 @@ export default function Menu () {
     return (
       <div className="menu">
         <Navbar bg="light" variant="light">
-        <Navbar.Brand href="#home">KOMO LOMOLO</Navbar.Brand>
+        {/* <Navbar.Brand href="#home">KOMO LOMOLO</Navbar.Brand> */}
         <Nav className="mr-auto">
-          <Nav.Link href="#home">Inicio</Nav.Link>
-          <Nav.Link href="#features">Camisetas</Nav.Link>
-          <Nav.Link href="#pricing">Sudadera</Nav.Link>
-          <Nav.Link href="#pricing">Arte</Nav.Link>
+          <Nav.Link href="/">Inicio</Nav.Link>
+          <Nav.Link href="/tshirts">Camisetas</Nav.Link>
+          <Nav.Link href="/sweatShirts">Sudadera</Nav.Link>
+          <Nav.Link href="/art">Arte</Nav.Link>
         </Nav>
         <Nav inline='true'>
-          <Nav.Link href="#pricing">Contacto</Nav.Link>
+          <Nav.Link href="/contact">Contacto</Nav.Link>
         </Nav>
       </Navbar>
       </div>
